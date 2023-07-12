@@ -1,0 +1,116 @@
+body{
+    margin: 10%;
+   background-color: black;
+}
+    
+    
+.form{
+    
+    background-color: white;
+    border-radius: 25px;
+    width: 550px;
+    margin: 50px auto;
+    padding: 20px;
+    
+}
+.username{
+  width:5px;
+}
+.lastname{
+  width:15px;
+}
+.email{
+  width: 15px;
+}
+.form_label1{
+  text-align: right;
+
+}
+.password{
+  margin-right: 30%;
+  text-align: left;
+  
+}
+.email input{
+  width:355px;
+  height: 20px;
+}
+.confirm-password{
+  margin-right: 30%;
+  text-align: left;
+}
+.register{
+  margin-left: 17%; 
+  color: black;
+}
+.form_input{
+    border-radius: 25px;
+}
+.form-body{
+
+    align-items: center;
+    padding: 20px 10px;
+}
+.confirm-password{
+text-align: left;
+
+}
+.form-body > *{
+    padding: 5px;
+}
+
+.form__label{
+    width: 40%;
+}
+
+.form_input{
+    width: 60%;
+}
+
+.button{
+    text-align: center;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid #1A1A1A;
+  border-radius: 15px;
+  box-sizing: border-box;
+  color: #3B3B3B;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: 60px;
+  min-width: 0;
+  outline: none;
+  padding: 16px 24px;
+  text-align: center;
+  text-decoration: none;
+  transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  will-change: transform;
+  color: white;
+}
+
+.button:disabled {
+  pointer-events: none;
+}
+
+.button:hover {
+  color: #fff;
+  background-color: #1A1A1A;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  transform: translateY(-2px);
+}
+
+.button:active {
+  box-shadow: none;
+  transform: translateY(0);
+}
+.h1{
+  color:black;
+}
